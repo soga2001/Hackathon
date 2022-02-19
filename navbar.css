@@ -1,17 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,600;0,700;1,500&display=swap");
+
+body {
+  font-family: Jost;
+  font-weight: 400;
+}
+
 .form {
-    display: inline;
+  display: inline;
+  font-family: Jost;
+  font-weight: 400;
 }
 
 .navbar {
-    background-color: white;
+  background-color: white;
+  font-family: Jost;
+  font-weight: 400;
 }
 
 a {
-    color: #AF91FF !important;
+  color: #af91ff !important;
+  font-family: Jost;
+  font-weight: 400;
 }
 
 input {
-    flex-grow: 2;
+  flex-grow: 2;
+  font-family: Jost;
+  font-weight: 400;
+}
+
+.form {
+  display: inline;
+}
+
+.navbar {
+  background-color: white;
+}
+
+a {
+  color: #af91ff !important;
+}
+
+input {
+  flex-grow: 2;
 }
 
 /* .search input[type=text] {
@@ -24,5 +55,5 @@ input {
     margin-top: 8px;
     margin-right: 16px;
     font-size: 17px;
-    background-color: #C7B3FF; */
+    background-color: #C7B3FF; 
 } */
