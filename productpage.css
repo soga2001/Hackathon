@@ -1,0 +1,91 @@
+/* container is to define the spacing between items as well as positioning
+of items inside the container */
+.flexbox-container{
+    /* height: 700px; */
+    /* main axis is determined by whether our flexbox is in a column or row
+    main axis for row would be horizontal while it would be vertical for a column */
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    /* justify-content aligns everything along the horizontal main axis */
+    /* justify-content: space-around; */
+    /* align-items aligns everything along the vertical cross axis */
+    /* align-items aligns the entire flexbox with respect to the body along
+    the cross axis */
+    /* align-items: center; */
+    /* align-content: space-between; */
+}
+
+/* these can ocerride the positioning and layout properties
+apply different flexible sixing to these items
+we could make some items not shrink when sized down */
+.flexbox-item-1{
+    /* flex-shrink:0; */
+    /* flex-grow: 2 and lex-grow: 1 on another means that one will get two
+    times as much more space*/
+
+    width: 200px;
+    margin: 10px;
+    border: 3px solid #333;
+    background-color: #dfdfdf;
+
+}
+
+.flexbox-item-2{
+    min-height: 100px;
+    border: 3px solid #333;
+    width: 200px;
+    margin: 10px;
+    background-color: #dfdfdf;
+
+    /* order: 1; */
+    
+}
+
+.flexbox-item-3{
+    /* order: 2; */
+    min-height: 300px;
+    border: 3px solid #333;
+    width: 200px;
+    margin: 10px;
+    background-color: #dfdfdf;
+}
+
+#hero {
+    background-color: blue;
+    height: 100px;
+    width: auto;
+}
+
+
+.pPContainer{
+    /* border: 3px solid #333; */
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pCContainer{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    min-height: 15rem;
+}
+
+.pImg{
+    background-color: rgb(255, 214, 255);
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-grow: 1;
+    max-width: 15rem;
+    min-height: 15rem;
+}
+
+#p_column{
+    float: right;
+    width: 60%
+}
+
