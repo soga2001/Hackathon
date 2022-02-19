@@ -35,21 +35,33 @@
             </nav>
         </header>
         <section id="hero">
-
+            <div class="imgFit">
+                <img src="assets/hero.jpg" alt="picture of sand and grass">
+            </div>
         </section>
         <section id="category">
-            <div id="catH">
-                <div class="cImg">
+            <div class="container">
+                <div id="catH">
+                    <div class="cImg">
+                
+                    </div>
+                    <div class="cImg">
+                
+                    </div>
+                    <div class="cImg">
+                
+                    </div>
+                    <div class="cImg">
 
+                    </div>
                 </div>
-                <div class="cImg">
-                
-                </div>
-                <div class="cImg">
-                
-                </div>
-                <div class="cImg">
-                
+            </div>
+            <div class="textContainer">
+                <div id="textH">
+                    <h3 class="textFlex">test</h3>
+                    <h3 class="textFlex">test</h3>
+                    <h3 class="textFlex">test</h3>
+                    <h3 class="textFlex">test</h3>
                 </div>
             </div>
         </section>
@@ -85,18 +97,38 @@
         <footer>
             <div class="footerContainer">
                 <div class="footerLinks">
-                    <div clas="footerCol">
-
+                    <div class="footerCol">
+                        <p><a href="#">About us</a></p>
+                        <p><a href="#">Careers</a></p>
+                        <p><a href="#">Affliates</a></p>
                     </div>
-                    <div clas="footerCol">
-                    
+                    <div class="footerCol">
+                        <p><a href="#">FAQ</a></p>
+                        <p><a href="#">Global FAQ</a></p>
+                        <p><a href="#">Contact</a></p>
+                        <p><a href="#">Shipping</a></p>
+                        <p><a href="#">Returns policy</a></p>
                     </div>
-                    <div clas="footerCol">
-                    
+                    <div class="footerCol">
+                        <p><a href="#">Sign in</a></p>
+                        <p><a href="#">Returns & Exchanges</a></p>
+                        <p><a href="#">Order lookup</a></p>
+                        <p><a href="#">E-gift cards</a></p>
                     </div>
                 </div>
                 <div class="contact">
-
+                    <form action="https://formspree.io/f/mdobgwwb" method="POST" id="fs-frm">
+                        <fieldset id="fs-frm-inputs">
+                            <label id="label1" for="email-address">Email</label><br>
+                            <input type="text" name="_replyto" id="email-address" required><br>
+                            <label id="label2" for="message">Message</label><br>
+                            <textarea rows="4" name="message" id="message" style="overflow:auto" required></textarea><br>
+                            <div class="g-recaptcha" data-sitekey="6Ldr-YweAAAAAOLAs5DkzyLHiv0xzGLdQO_BaZ4t"></div><br>
+                            <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission"><br>
+                        </fieldset>   
+                        <input type="submit" value="Submit" class="swing">
+                        <!-- your other form fields go here -->
+                    </form>
                 </div>
             </div>
         </footer>
