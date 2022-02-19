@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,600;0,700;1,500&display=swap");
+html {
+  font-size: 100%;
+}
 
 body {
   font-family: Jost;
@@ -27,6 +30,7 @@ input {
   flex-grow: 2;
   font-family: Jost;
   font-weight: 400;
+  border-radius: 0.5rem;
 }
 
 .form {
@@ -37,12 +41,18 @@ input {
   background-color: white;
 }
 
-a {
-  color: #af91ff !important;
-}
-
 input {
   flex-grow: 2;
+}
+
+#logo {
+  flex-grow: 2;
+  width: 9rem;
+}
+
+#login {
+  background-color: #332e54;
+  color: #fff !important;
 }
 
 /* .search input[type=text] {
