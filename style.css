@@ -118,6 +118,11 @@ nav a:visited {
 #hero {
   min-height: 35rem;
 }
+.imgText {
+  font-size: 2rem;
+  position: relative;
+  bottom: 30rem;
+}
 #category {
   width: 100%;
 }
